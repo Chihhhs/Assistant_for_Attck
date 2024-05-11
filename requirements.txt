@@ -1,10 +1,12 @@
 langchain
 langchainhub
 langchain-community
+langchain-experimental 
 langchain-openai
 langchain-groq
 langchain_mistralai
 faiss-cpu
+neo4j
 
 python-dotenv
 
