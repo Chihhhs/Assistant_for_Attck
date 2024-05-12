@@ -12,9 +12,3 @@ WORKDIR /app
 COPY requirements.txt /app/requirements.txt
 
 RUN pip3 install -r requirements.txt
-
-COPY . /app
-
-EXPOSE 8081
-
-CMD ["python3", "app.py"]

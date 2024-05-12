@@ -10,5 +10,6 @@ neo4j
 
 python-dotenv
 
+huggingface_hub[cli]
 transformers
 datasets
