@@ -18,7 +18,10 @@ splits = text_splitter.split_text(format_func(dataset))
 # graph
 # embedding 
 vectorstore = FAISS.from_texts(texts=splits, embedding=OllamaEmbeddings())
-retriever = vectorstore.as_retriever()
+vectorstore.save_local("faiss-index")
+new_vector = FAISS.load_local("faiss-index",OllamaEmbeddings(),allow_dangerous_deserialization=True)
+
+retriever = new_vector.as_retriever()
 
 from langchain import hub
 prompt = hub.pull("rlm/rag-prompt")
