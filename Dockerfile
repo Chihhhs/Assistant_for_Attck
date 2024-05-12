@@ -1,11 +1,9 @@
-FROM ubuntu:24.04
+FROM python
 
 RUN apt update && apt install -y python3 python3-pip curl wget
 
-RUN curl -fsSL https://ollama.com/install.sh | sh
-
-# This is aa new thing , github copilot does not know about this 哈!
-RUN ollama pull llama2
+RUN chmod +x setup.sh
+RUN ./setup.sh
 
 WORKDIR /app
 
