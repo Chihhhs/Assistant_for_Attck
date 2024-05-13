@@ -1,10 +1,4 @@
 '''
-Author: hibana2077 hibana2077@gmail.com
-Date: 2024-05-13 11:02:01
-LastEditors: hibana2077 hibana2077@gmail.com
-LastEditTime: 2024-05-13 11:34:20
-FilePath: \llm-ag-farmer\src\simple_demo\st_demo.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
 from langchain_community.chat_models import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
