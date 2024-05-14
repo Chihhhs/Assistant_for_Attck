@@ -45,7 +45,19 @@ How can one identify and prevent adversaries from abusing cloud management servi
 Do cloud providers offer security measures to prevent adversaries from abusing these management services?
 """
 
-ans = rag_chain.invoke("What are cloud management services, and how can they be abused by adversaries?")
+"What are cloud management services, and how can they be abused by adversaries?"
 
-import translators as ts
-print(ts.translate_text(query_text=ans, translator='google', from_language= 'en', to_language='zh-TW'))
+while True:
+    query = input("""
+              input query 
+              input '0' to quit
+              """)
+    if query == '0':
+        break
+    ans = rag_chain.invoke(query)
+    print("EN:")
+    print(ans)
+
+    import translators as ts
+    print("zh-TW:")
+    print(ts.translate_text(query_text=ans, translator='google', from_language= 'en', to_language='zh-TW'))
