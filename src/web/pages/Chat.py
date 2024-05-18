@@ -5,11 +5,13 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages.ai import AIMessage
 from langchain_core.messages.human import HumanMessage
+from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
+
 import os
 import yaml
 import streamlit as st
 
-st.title("Att&ck Assistant")
+st.title("ATT&CK Assistant")
 
 def init_chat_history() -> ChatPromptTemplate:
     if 'chat_history' not in st.session_state:
@@ -22,7 +24,13 @@ def init_chat_history() -> ChatPromptTemplate:
     return template
 
 chat_tmp = init_chat_history()
-llm = ChatOllama(model="llama2")
+
+llm = HuggingFacePipeline.from_model_id(
+    model_id="Xcvddax/Attack-techniques-full-gemma",
+    task="text-generation",
+    pipeline_kwargs={"max_new_tokens": 10},
+)
+
 user_input = st.chat_input("Say something")
 chain = chat_tmp | llm | StrOutputParser()
 

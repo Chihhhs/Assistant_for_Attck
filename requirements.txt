@@ -13,6 +13,8 @@ python-dotenv
 huggingface_hub[cli]
 transformers
 datasets
+torch
 
 translators
 mitreattack-python
+streamlit
