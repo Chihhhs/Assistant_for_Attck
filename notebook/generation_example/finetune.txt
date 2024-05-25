@@ -1,1 +1,117 @@
-123456
+What is domain name query in reconnaissance?
+What is domain name query in reconnaissance? Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code. An adversary may be able to execute a program at system startup or on a scheduled basis for persistence.
+
+On network devices, the Network Task Scheduler can be run directly on the command line. Environment variables, such as <code>%USERNAME</code> and <code>$$USER</code>, may also be used to access information about the network. 
+
+Adversaries may also employ alternate methods to execute programs, such the Windows netuet, including <code>rundll32</code>. 
+Additionally, adversaries may use [Windows Task Scheduler](https://attack.mitre.org/software/S0111) to interact with local and remote systems.(Citation: Microsoft 365 2022) 
+ kill_chain_phases 
+ revoked: False 
+ external_references 
+ [{'description': None, 'external_id': 'T1132.001','source_name':'mitre-attack.html'}, {'description': 'Legezo, D. (2019, August 15).
+How can I perform social media profiling for reconnaissance?
+How can I perform social media profiling for reconnaissance?
+
+Consider detecting malicious activity at the cluster level for actions that could be taken to gather information about the environment, such as the use of discovery API calls by new or unexpected users. Monitor account activity logs to see actions performed and activity associated associated with the Kubernetes dashboard and other API calls.(Citation: Kubernetes API)(Citation: Docker API) 
+ kill_chain_phases 
+ revoked: False 
+ external_references: [{'description': None, 'external_id': 'T1113','source_name': 'Kubernetes API', 'url': 'https://kubernetes.io/docs/concepts/overview/kubernetes-api/'}] 
+ object_marking_refs: ['marking-definition--fa42a8468'] 
+ x_mitre_detection: 'collection API calls and check for files added or modified by unusual users. This may yield a significant number of benign events, depending on how systems in the environment are typically used.Consider detecting writing of files by abnormal users or at abnormal times for actions to be indicative of abnormal activity at a system level. 
+
+Consider detection methods such as [marking API calls](https://attack
+What is domain purchase in resource development?
+What is domain purchase in resource development?
+
+Running code in the context of another process may allow access to the process’s resources, including the use of discovery API calls by new or unexpected users. Resources may also interact with the Windows Task Scheduler to create a scheduled task.
+
+Adversaries may also create "hidden" scheduled tasks (i.e. hide the Task Scheduler by deleting the associated Security Descriptor (SD) registry value (where deletion of this value must be completed using SYSTEM permissions).(Citation: SigmaHQ)(Citation: Tarrask scheduled task) Adversaries also employ alternate methods to hide tasks, such as altering the metadata (e.g., `Index` value) within associated registry value.(Citation: Defending Against Scheduled Task Attacks in Resource Environments)  
+ kill_chain_phases 
+ revoked: False 
+ external_references: [{'description': None, 'external_id': 'T1113','source_name':'mitre-attack', 'url': 'https://attack.mitre.org/techniques/T1013'}, {'description': 'Campbell, B. et al. (2020, March 14). SigmaHQ. Retrieved April 
+How can I set up command and control servers?
+How can I set up command and control servers? Command and Control (C2) information may also be collected through Windows system management tools such as WinRAR.(Citation: WinZip C2) and information from unusual Windows system processes such as WMI. More information about C2 and C2 sets can also be acquired through WinZip and WinRAR.
+
+Adversaries may also employ alternate methods to gather C2 information, such WinZip, WinRAR, and information, including contacting third party C2 providers or contacting WinZip.
+
+For example, adversaries may use WinZip to gather information over the course of an operation. Adversaries may then leverage the WinZip information to attempt to escalate their C2 position, such as by negotiating a less secure, C2 provider (such as WinZip) or by contacting a WinZip provider. 
+ kill_chain_phases 
+ revoked: False 
+ external_references: [{'description': None, 'external_id': 'T1155.001','source_name': 'WinRAR', 'url': 'https://www.rarlab.com/'}, {'description': 'Legezo, D. (2020, February 
+What is spear phishing?
+What is spear phishing?
+
+Adversaries may also attempt to obscure malicious malware from analysis by deleting the associated Security Descriptor (SD) registry value (where deletion of this value must be completed using SYSTEM SYSTEM SYSTEM.
+
+Execution under signed/trusted system processes may also employ alternate methods to hide this value, such as altering the metadata (e.g., `Index` value) within associated registry keys.(Citation: Microsoft 365 2022)
+
+Additionally, adversaries may use the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code. The Task Scheduler can also be used to conduct remote Execution as part of Lateral Movement and/or to run a process under the context of a specified account (such as SYSTEM). Similar to [System Binary Proxy Execution](https://attack.mitre.org/techniques/T1288), adversaries also attempt various methods to execute programs at system startup or on a scheduled basis for persistence.  (Citation: MalwareTech Power Loader)(Citation: WeLiveSecurity Gapz and Redyy’s)
+
+Running code under signed and trusted system processes will also enable adversaries to [Subvert Trust Controls](such as digital signatures and notarization tickets) by not impacting
+How can I exploit public-facing applications for initial access?
+How can I exploit public-facing applications for initial access?
+
+Consider also the use of discovery API calls such as <code>CopyFromScreen</code> and <code>xwd</code>.(Citation: CopyFromScreen.NET)(Citation: Antiquated Mac Malware) 
+Citation: copyfromscreen.NET](https://docs.microsoft.com/en-net/dotnet/api/system.drawing.graphics.copyfromscreen?view=netframework-4` 
+ Adversaries may copy from screen to detect malicious activity at the cluster level. This may yield a significant number of benign events, depending on how systems in the environment are typically used. 
+
+Consider detecting actions that could be taken to gather information over the course of an operation. This information may be collected in a number of different ways using other Discovery API calls, because the information may not be visible to defender tools and manual queries used to gather the information. 
+Adversaries may use the information from 2020 to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions. The adversary may also attempt to escalate their position in the address system by negotiating a less secure, but more networked, or
+What is PowerShell execution?
+What is PowerShell execution?
+
+Running a process under the context of another account may allow access to both the account’s resources and the system’resources. Resources can be viewed within the Accounts section of the Control Panel or can be queried via the Docker and Kubernetes APIs.(Citation: Docker API)(Citation: Kubernetes API) In Docker, logs may leak information about the environment, such as the environment’s configuration, which services are available, and what cloud provider the victim may be utilizing. The information may be collected in a number of different ways using other Discovery APIs, because the information is prevalent throughout an operation, and because the Kubernetes and Docker APIs are being used to programmatically interact with other systems and use discovery API calls to gather information.  
+ kill_chain_phases 
+ revoked: False 
+ external_references: [{'description': None, 'external_id': 'T1113','source_name':'mitre-attack', 'url': 'https://attack.mitre.org/techniques/T1013'}, {'description': 'Docker. (n.d.). Docker API v1.41 Reference. Retrieved March 31, 2021.', '
+How can I execute malicious macros?
+How can I execute malicious macros? 
+ 
+kill_chain_name':'mitre-attack', 'external_id': 'T1155.002','source_url': 'https://attack.mitre.org/techniques/T1063/001'}, {'kill_phase_name'):'mitro-attack'}, {'phase_ name': 'defense-evasion'}] 
+ revoked: False 
+ external_references: [{'description': None, 'external id': 'TA000.011', {'description': 'Microsoft. (n.d.). Graphics.CopyFromScreen Method. Retrieved March 24, 2020.', 'copyfromscreen':'microsoft.com/en-us/dotnet/api/system.drawing.graphics.copyfromScreen?view=netframework-4', 'description': "Thomas Reed. (2019, September 23). New Backdoor Targets French Entities with Unique Attack Chain. Retrieved August 18, 1919.', 'new backdoor target French entities with unique attack chain', 'copy from screen method', 'xcopy from
+What is a backdoor account?
+What is a backdoor account?
+
+Adversaries may backdoor accounts to allow other activities such as preventing/redirecting users to other sites. Backdoor accounts may also employ alternate methods such as altering the metadata (e.g., `Index` value) within associated system processes to allow access to both the local and remote sites.(Citation: Trend Micro Backdoor)(Citation: Anomali Rocke March 2019)
+
+Additionally, adversaries may employ the Windows Management Instrumentation (WMI) system to interact with local and Remote sites. WMI is designed for programmers and is the infrastructure for management data such as the WMI value.
+
+WMI is also designed for WMI over Dtrack (i.e., `rundll` value), which stipulate appearance and behavior (via windows procedures, which are functions that handle input/output data).(Citation: WMI 1, 2, 3, 6, 7, 8, 10, and 12) WMI can also be used to interact over C2, such as by negotiating a WMI position similar to WMI.
+
+An adversary may also be able to escalate their privileges since WMI has higher privileges.
+
+
+How can I modify startup items for persistence?
+How can I modify startup items for persistence?
+
+Adversaries may also employ alternate methods to modify startup item files, such as <code>CopyFromScreen</code>, <code>xwd</code>, or <code>rundll32</code>, that may not affect execution under signed/trusted system processes.(Citation: CopyFromScreen.NET)(Citation: Antiquated Mac Malware)
+
+Additionally, adversaries may employ the Windows Task Scheduler to execute programs at system startup or on a scheduled basis for persistence. 
+On Windows, the Task Scheduler can be run directly on the command line. Environment variables may also be used to access Task Scheduler. 
+
+On network devices, the Network Task Scheduler may be run through the GUI within the Administrator Tools section of the Control Panel. Environment variable <code>%USERNAME</code> also often refers to the currently logged in user. <code>On Network Devices</code>, the task Scheduler can also be run via the Windows netapi3 library wrapper for the WinRAR utilities.  More information about Win Task Scheduler on network devices can be obtained through the macOS and Linux Task Scheduler, or can be queried via the WMI on the Docker and Kubernetes APIs.(Citation : Docker API v1.4) 
+
+Running a process under the context
+What is vulnerability exploitation for privilege escalation?
+What is vulnerability exploitation for privilege escalation?
+
+Adversaries may also employ alternate methods to escalate privileges, such as altering the metadata (e.g., `Index` value) within associated registry values.(Citation: Microsoft 365 2020)
+
+Additionally, adversaries may employ the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code.
+
+An adversary may use Windows 165 to execute a program at system startup or on a scheduled basis for persistence. The windows Task Scheduler can also be used to conduct remote Execution as part of Lateral Movement and/or to run a program under the context of a specified account (such as SYSTEM). Similar to System Proxy Execution, adversaries also attempt to obscure malicious code from analysis by triggering a combination of windows and other system functions that will rewrite the malicious payload inside an executable portion of the victim’s system.  (Citation: MalwareTech Report ComRAT)(Citation: Havana authentication bug)  
+ kill_chain_phases 
+ revoked: False 
+ external_references: [{'description': None, 'external_id': 'T1113','source_name':'mitre-attack', 'url': 'https://attack.
+How can I perform process injection for privilege escalation?
+How can I perform process injection for privilege escalation? 
+ killchain_phases: [{'kill_chain_name', 'phase_name': 'defense-evasion'}] 
+ revoked: False 
+ external_references: [{ {'description': None, 'external_id': 'T1055.001', 'description': 'University of Birmingham 2020 
+ object_marking_refs: ['marking-definition--fa4a846a8'] 
+ x_mitre_detection:  Process injection may be detectable through process monitoring for command-line arguments for known archival formats. This may yield a significant number of benign events, depending on how systems in the environment are typically used.
+
+Consider detecting writing of files outside of normal administration duties, such as contacting third-party web services or downloading files. Processes utilizing the system that do not normally have network communication or have never been seen before are suspicious. Analyze account activity logs to see actions performed and activity associated with the system. 
+
+Consider detection methods such as [Process Injection](https://attack.mitre.org/techniques/T1555) and [Running Process under the context of a specified
