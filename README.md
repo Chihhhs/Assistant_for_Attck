@@ -1,8 +1,27 @@
 # Assistant_for_Attck
 
-## TODO
+## setup
 
-1. all data finetune
-2. rag tech
+```bash
+chmod +x setup.sh
+./setup.sh
+```
 
-> **Extract the Relation between Attack and Windows API**
+## Notebook
+
++ OpenAI-chat RAG
++ Ollama-Chat RAG
++ HF-Chat
+
+## evaluation
+
+>Testing finetune model
+
+## app
+
+> [Streamlit](https://streamlit.io/) chat app
+
+```bash
+cd app
+sudo docker compose up -d
+```
