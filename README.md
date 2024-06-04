@@ -19,7 +19,7 @@ chmod +x setup.sh
 
 ## app
 
-> [Streamlit](https://streamlit.io/) chat app
+> [Streamlit](https://streamlit.io/) Chat app
 
 ```bash
 cd app
