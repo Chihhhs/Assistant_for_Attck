@@ -17,6 +17,10 @@ chmod +x setup.sh
 
 >Testing finetune model
 
++ Llama RAG
++ Llama lora finetune
++ chat GPT-3.5-turbo
+
 ## app
 
 > [Streamlit](https://streamlit.io/) Chat app
