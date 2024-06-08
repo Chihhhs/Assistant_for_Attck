@@ -6,7 +6,6 @@ langchain-openai
 langchain-groq
 langchain_mistralai
 faiss-cpu
-neo4j
 
 python-dotenv
 
