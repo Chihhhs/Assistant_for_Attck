@@ -29,3 +29,8 @@ chmod +x setup.sh
 cd app
 sudo docker compose up -d
 ```
+
+## Approve
+
++ The Interpretability of Model
++ Finetune model maybe can cross the origin model limit to provifre illigal answer ,ilke "How to hack a server?".
