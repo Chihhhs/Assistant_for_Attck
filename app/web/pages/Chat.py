@@ -1,11 +1,10 @@
 '''
 '''
-from langchain_community.chat_models import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages.ai import AIMessage
 from langchain_core.messages.human import HumanMessage
-from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
+from langchain_community.llms.ollama import Ollama
 
 from transformers import GenerationConfig
 
@@ -40,12 +39,7 @@ generation_config = GenerationConfig(
 )
 
 
-llm = HuggingFacePipeline.from_model_id(
-    model_id="Xcvddax/Attack-techniques-full-gemma",
-    task="text-generation",
-    pipeline_kwargs=generation_config.to_dict(),
-)
-
+llm = Ollama(model = 'chih/llama-2-chat-attack')
 # llm.save("model/")
 
 user_input = st.chat_input("Say something")
