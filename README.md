@@ -9,11 +9,11 @@ chmod +x setup.sh
 
 ## Notebook
 
-+ OpenAI-chat RAG
-+ Ollama-Chat RAG
++ OpenAI-chat , RAG
++ Ollama-Chat , RAG
 + HF-Chat
 
-## evaluation
+## Evaluation
 
 >Testing finetune model
 
@@ -21,7 +21,7 @@ chmod +x setup.sh
 + Llama lora finetune
 + chat GPT-3.5-turbo
 
-## app
+## App
 
 > [Streamlit](https://streamlit.io/) Chat app
 
