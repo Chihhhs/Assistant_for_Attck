@@ -36,9 +36,9 @@
 ### wide range (21)
 
 1. Explain the Evasion Techniques
-1. Describe the Role of Initial Access Techniques 
+1. Describe the Role of Initial Access Techniques
 1. Discuss the Use of Credential Dumping
-1. How do Adversaries Use Command and Control (C2) 
+1. How do Adversaries Use Command and Control (C2)
 1. What are Lateral Movement Techniques
 1. What is the Significance of Privilege Escalation Techniques
 1. Explain the Impact of Defense Evasion Techniques
@@ -64,8 +64,6 @@
 1. How can organizations detect and mitigate the use of their network's legitimate communications for malicious one-way command and control purposes?
 1. Discuss the methods by which compromised systems may use distinct Web services to send command outputs, circumventing the original C2 channel.
 
-
-
 ## Question out of data (16) (32)
 
 1. How is a Trojan attack executed and what measures can be taken to prevent it?
@@ -74,10 +72,14 @@
 1. How do ransomware attacks work and what steps can be taken to protect against them?
 1. What is a Distributed Denial of Service (DDoS) attack and how can an organization defend itself against such attacks?
 
-
 1. What is a Man-in-the-Middle (MitM) attack and how can it be prevented?
 1. How does Cross-Site Scripting (XSS) work and what are the best practices to prevent it?
 1. What is Social Engineering and what strategies can be employed to mitigate its risks?
 1. How do Zero-Day vulnerabilities differ from other vulnerabilities and how can organizations protect against them?
 1. What is a Brute Force attack and what measures can be taken to secure systems against it?
 1. How does DNS Spoofing work and what are the defense mechanisms against it?
+
+1. Explain how the technique "Obfuscated Files or Information" operates and its application in avoiding detection.
+1. What techniques might attackers use to discover network services and connections on the target system? Explain the operation principles and potential impact of these techniques.
+1. Describe how attackers utilize application layer protocols (such as web protocols, file transfer protocols, mail protocols, DNS, etc.) for command and control (C2) communications, and discuss possible detection and prevention methods.
+1. What are some of the ways adversaries use proxies to obfuscate their communication in a compromised network?
