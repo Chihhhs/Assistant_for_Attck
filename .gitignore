@@ -161,3 +161,4 @@ cython_debug/
 
 
 enterprise-attack.json
+.DS_Store
