@@ -1,4 +1,4 @@
-langchain
+langchain:0.2.12
 langchainhub
 langchain-community
 langchain-experimental 
